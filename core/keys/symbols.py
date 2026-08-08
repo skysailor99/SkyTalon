@@ -63,7 +63,7 @@ symbols = [
     Symbol("?", ["question mark"], ["question"]),
     Symbol("!", ["exclamation mark", "exclamation point"], ["bang"]),
     Symbol("*", ["asterisk"], ["star"]),
-    Symbol("#", ["hash sign", "number sign"], ["hash"]),
+    Symbol("#", ["hash sign", "number sign", "hashtag"], ["hash"]),
     Symbol("%", ["percent sign"], ["percent"]),
     Symbol("@", ["at symbol", "at sign"]),
     Symbol("°", ["degree sign"], ["degree", "degrees"]),
@@ -81,14 +81,14 @@ symbols = [
     Symbol("]", None, ["R brack", "R bracket", "right bracket", "R square", "right square"]),
     Symbol("/", ["forward slash"], ["slash"]),
     Symbol("\\", None, ["backslash"]),
-    Symbol("{", None, ["brace", "L brace", "left brace", "curly bracket", "left curly bracket"],),
-    Symbol("}", None, ["R brace", "right brace","R curly bracket", "right curly bracket"]),
+    Symbol("{", None, ["brace", "L brace", "left brace", "curly bracket", "left curly bracket", "left curly"],),
+    Symbol("}", None, ["R brace", "right brace","R curly bracket", "right curly bracket", "right curly"]),
     Symbol("<", None, ["angle", "L Angle", "left angle", "less than"]),
     Symbol(">", None, ["rangle", "R angle", "right angle", "greater than"]),
     Symbol("^", None, ["caret"]),
     Symbol("|", None, ["pipe"]),
-    Symbol("'", None, ["quote", "apostrophe"]),
-    Symbol('"', None, ["dub quote", "double quote"]),
+    Symbol("'", None, ["single quote", "apostrophe", "prime"]),
+    Symbol('"', None, ["quo", "quoth", "dub quote", "double quote"]),
 ]
 
 # by convention, symbols should include currency symbols
