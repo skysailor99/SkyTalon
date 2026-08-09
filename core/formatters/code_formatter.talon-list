@@ -1,8 +1,7 @@
 list: user.code_formatter
 -
-
-lock cap: ALL_CAPS
-lock low: ALL_LOWERCASE
+real caps: ALL_CAPS
+real low: ALL_LOWERCASE
 camel: PRIVATE_CAMEL_CASE
 dotted: DOT_SEPARATED
 list: COMMA_SEPARATED
