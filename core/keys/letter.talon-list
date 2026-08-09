@@ -5,7 +5,7 @@ list: user.letter
 # https://talon.wiki/Resource%20Hub/Speech%20Recognition/improving_recognition_accuracy#collected-alternatives-to-the-default-alphabet
 air: a
 bat: b
-cap: c
+car: c
 drum: d
 each: e
 fine: f
