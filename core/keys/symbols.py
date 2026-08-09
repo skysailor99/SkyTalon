@@ -77,18 +77,18 @@ symbols = [
     Symbol("_", None, ["down score", "underscore"]),
     Symbol("(", ["paren", "L paren", "left paren"]),
     Symbol(")", ["R paren", "right paren"]),
-    Symbol("[", None,["brack", "L brack", "bracket", "L bracket", "left bracket", "square", "L square", "left square",],),
-    Symbol("]", None, ["R brack", "R bracket", "right bracket", "R square", "right square"]),
+    Symbol("[", None,["brack", "L brack", "left brack", "bracket", "L bracket", "left bracket", "square", "L square", "left square",],),
+    Symbol("]", None, ["R brack", "right brack", "R bracket", "right bracket", "R square", "right square"]),
     Symbol("/", ["forward slash"], ["slash"]),
     Symbol("\\", None, ["backslash"]),
-    Symbol("{", None, ["brace", "L brace", "left brace", "curly bracket", "left curly bracket", "left curly"],),
-    Symbol("}", None, ["R brace", "right brace","R curly bracket", "right curly bracket", "right curly"]),
+    Symbol("{", None, ["curly bracket", "left curly bracket", "left curly"],),
+    Symbol("}", None, ["R curly bracket", "right curly bracket", "right curly"]),
     Symbol("<", None, ["angle", "L Angle", "left angle", "less than"]),
     Symbol(">", None, ["rangle", "R angle", "right angle", "greater than"]),
     Symbol("^", None, ["caret"]),
     Symbol("|", None, ["pipe"]),
     Symbol("'", None, ["single quote", "apostrophe", "prime"]),
-    Symbol('"', None, ["quo", "quoth", "dub quote", "double quote"]),
+    Symbol('"', None, ["quo", "quote", "quoth", "dub quote", "double quote"]),
 ]
 
 # by convention, symbols should include currency symbols
