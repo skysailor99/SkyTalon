@@ -1,4 +1,5 @@
 help alphabet: user.help_list("user.letter")
+help bet: user.help_list("user.letter")
 help symbols: user.help_list("user.symbol_key")
 help numbers: user.help_list("user.number_key")
 help punctuation: user.help_list("user.punctuation")
